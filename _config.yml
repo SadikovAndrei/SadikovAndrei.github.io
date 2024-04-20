@@ -6,8 +6,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   Second description 
   <br><br>
-  <a href="https://www.linkedin.com/in/andrei-sadikov/">View My LinkedIn Profile</a> 
-  
+  <a href="https://www.linkedin.com/in/andrei-sadikov/">To My LinkedIn</a> 
+  <a href="https://www.upwork.com/freelancers/~01da9a61ab45794ff3">To My Upwork</a> 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
