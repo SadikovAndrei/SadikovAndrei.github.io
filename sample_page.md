@@ -1,4 +1,4 @@
-## Building endangered species dash using Python PLotly Dash and Pandas
+## Building endangered species dash using Python PLotly Dash and GeoPandas
 
 **Project description:** For preprocessing data I used python with geopandas library:
 1. Downloaded the files from The Environmental Conservation Online System file
