@@ -35,15 +35,23 @@ I’ve done it with help of comparing polygons from the dataset to polygons from
 ```python
 intersection_gdf = gpd.sjoin(gdf, states_gdf, how="inner", predicate='intersects')
 ```
+## 5. Wrote a Dash App
+```python
+...
+app = dash.Dash(__name__)
+server = app.server
 
-## 5. Interesting features: I’ve added the self-adjusting zoom to zoom in on polygons of
+app.layout = html.Div(style={'backgroundColor': bgcolor},children=[html.H1('Some endangered species of USA',
+                                        style={'textAlign': 'center',
+                                               'color': '#503D36',
+                                               'font-size': 40,
+                                              'font-family': font})
+...
+```
+## 6. Interesting features: I’ve added the self-adjusting zoom to zoom in on polygons of
 species ranges; The States map on Dash is added for the better spatial navigation
 
 ```python
-def update_input_container(value):
-    
-    
-    
     df1 = gdf[gdf['sciname'] == value]
     
     poly = df1['geometry']
@@ -52,7 +60,11 @@ def update_input_container(value):
     centroid_x, centroid_y = centroid.y, centroid.x  # Reversed for correct lat-lon assignment
     center = {"lat": centroid_x, "lon": centroid_y}
     if poly.area >= 500:
-        zoom = 0 ...
+        zoom = 0
+    elif poly.area >= 50 and poly.area < 500:
+        zoom = 1
+    elif poly.area >= 5 and poly.area < 50:
+        zoom = 3
 ```
 
 The Dashboard is launched on a free hosting, so it takes a significant time to load [OnRender](https://us-endangered-species-1.onrender.com).
