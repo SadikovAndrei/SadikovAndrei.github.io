@@ -1,6 +1,14 @@
-## This can be your internal website page / project page
+## Building endangered species dash using Python PLotly Dash and Pandas
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** For preprocessing data I used python with geopandas library:
+1. Downloaded the files from The Environmental Conservation Online System file
+with USA endangered species’ ranges
+2. Cleaned the data
+3. Using wikipedia API I’ve retreated picture links and descriptions for species
+4. Then created intersection table with states for each species (I’ve done it with help of
+comparing polygons from the dataset to polygons from geojson file with counties)
+5. Interesting features: I’ve added the self-adjusting zoom to zoom in on polygons of
+species ranges; The States map on Dash is added for the better spatial navigation
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
