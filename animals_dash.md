@@ -5,6 +5,7 @@
 ## 2. Cleaned the data
 ## 3. Using wikipedia API I’ve retreated picture links and descriptions for species
 ```python
+# Using wikipedia API retrieving image links
 for i,row in enumerate(list_names):
     page_title = list_names[i]
 
