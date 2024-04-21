@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Project 1 Title](/animals_dash)
 <img src="images/dash_thumbnail.png?raw=true"/>
 
 ---
