@@ -2,14 +2,15 @@
 
 ---
 
-### Category Name 1 
+### Python projects
 
-[Project 1 Title](/animals_dash)
+[Building endangered species dash using Python Plotly Dash and GeoPandas](/animals_dash)
 <img src="images/dash_thumbnail.png?raw=true"/>
 
----
-[Project 2 Title](/pdf/presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+### BI projects
+
+[Dashboard building using IBM Cognos Analytics](/pdf/presentation.pdf)
+<img src="images/cognos_thumbnail.png?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
