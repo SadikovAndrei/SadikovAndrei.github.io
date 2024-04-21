@@ -17,4 +17,4 @@ import requests
 import re
 ```
 
-The Dashboard is launched on free hosting, so it takes significant time to load [OnRender](https://us-endangered-species-1.onrender.com).
+The Dashboard is launched on free hosting, so it takes a significant time to load [OnRender](https://us-endangered-species-1.onrender.com).
