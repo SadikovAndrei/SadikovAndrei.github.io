@@ -1,4 +1,4 @@
-### Creating a dashboard with light/dark mode toggle
+### Creating a [dashboard](https://github.com/SadikovAndrei/Dark-Mode-Power-BI-dashboard/blob/a160b022fc75d42ac139d49f7c1c7f5837d8d033/BI/Store%20sales%20Dashboard.pbix) with light/dark mode toggle
 <img src="images/store_dash.gif?raw=true"/>
 
 ### 1. The Retail Store Sales dataset was taken from from [kaggle](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)
