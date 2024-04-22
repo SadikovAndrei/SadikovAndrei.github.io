@@ -13,7 +13,7 @@
 <img src="images/cognos_thumbnail.png?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Creating a dashboard with light/dark mode toggle](/store_dash)
 <img src="images/cognos_thumbnail.png?raw=true"/>
 
 ---
