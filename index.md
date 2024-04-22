@@ -14,12 +14,6 @@
 [Dashboard building using IBM Cognos Analytics](/pdf/presentation.pdf)
 <img src="images/cognos_thumbnail.png?raw=true"/>
 
----
-
-
-
-
-
 
 ---
 <p style="font-size:11px">Page template gratefully forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
