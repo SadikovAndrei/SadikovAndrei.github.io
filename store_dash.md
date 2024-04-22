@@ -3,8 +3,8 @@
 
 ### 1. The Retail Store Sales dataset was taken from from [kaggle](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)
 ### 2. The Power BI dashboard was created
-<img src="images/light_store_dash.gif?raw=true"/>
-<img src="images/dark_store_dash.gif?raw=true"/>
+<img src="images/light_store_dash.png?raw=true"/>
+<img src="images/dark_store_dash.png?raw=true"/>
 ### 3. The to create dark mode option:
 I've created an additional table
 <img src="images/table.png?raw=true"/>
