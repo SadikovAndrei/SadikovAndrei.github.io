@@ -9,7 +9,7 @@
 
 ### BI projects
 ---
-[Creating a Power BI dashboard with dark mode]
+[Creating a Power BI dashboard with dark mode](/pdf/store_dash)
 <img src="images/store_dash.gif?raw=true"/>
 [Dashboard building using IBM Cognos Analytics](/pdf/presentation.pdf)
 <img src="images/cognos_thumbnail.png?raw=true"/>
