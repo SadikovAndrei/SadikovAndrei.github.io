@@ -14,7 +14,7 @@
 
 ---
 [Creating a dashboard with light/dark mode toggle](/store_dash)
-<img src="images/cognos_thumbnail.png?raw=true"/>
+<img src="images/store_dash.gif?raw=true"/>
 
 ---
 
