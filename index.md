@@ -1,7 +1,6 @@
 
 ## Portfolio
 ---
-<link rel="icon" type="image/png" sizes="16x16" rel="noopener" target="_blank" href="/images/favicon.png">
 
 ### Python projects
 
