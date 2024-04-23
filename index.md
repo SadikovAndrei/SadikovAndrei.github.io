@@ -1,6 +1,7 @@
-<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
 ## Portfolio
 ---
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
 ### Python projects
 
