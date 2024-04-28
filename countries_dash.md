@@ -22,7 +22,7 @@ The data was pulled from 4 Kaggle datasets, so much standartizing work was requi
 - Removing duplicates
 - Setting datatypes in order
 - Dropping excess columns
-- Standardizing Country names in all 4 datasets to match
+- Standardizing Country names in all 4 datasets to match by comparing them
   
 ```Python
 difference1 = set(world_countries_list) - set(gdp_countries_list)
@@ -30,6 +30,8 @@ difference1
 difference2 = set(gdp_countries_list) - set(world_countries_list)
 difference2
 ```
+-Exporting to csv files
+### 1. Importing the data sets to Power BI
 
 
 
