@@ -1,4 +1,4 @@
-## Building endangered species dash using Python PLotly Dash and GeoPandas
+## Building endangered species [dashboard](https://github.com/SadikovAndrei/US-animal-dash) using Python PLotly Dash and GeoPandas
 <img src="images/dash_thumbnail.png?raw=true"/>
 **Project description:** This is an interactive dashboard showcasing some endangered species of the USA with treir habitat and a description.
 ## 1. Downloaded the files from The Environmental Conservation Online System file with USA endangered species’ ranges
