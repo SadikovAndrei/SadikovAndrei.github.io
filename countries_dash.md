@@ -9,24 +9,24 @@ So here are sorce links:
 [Flags](https://www.kaggle.com/datasets/andreshg/countries-iso-codes-continent-flags-url)
 [Population growth](https://www.kaggle.com/datasets/deeplyft/world-population-growth-annual)
 [Additional data](https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023/data)
-"""Python
+```Python
 df_gdp = pd.read_csv('/content/Historical GDP in USD by Country and Year.csv')
 df_flags = pd.read_csv('/content/countries_continents_codes_flags_url.csv')
 df = pd.read_csv("/content/The_World_Bank_Population_growth_(annual_).csv")
 df_world_data = pd.read_csv('/content/world-data-2023.csv')
-"""
+```
 The data was pulled from 4 Kaggle datasets, so much standartizing work was required:
 - Removing duplicates
 - Setting datatypes in order
 - Dropping excess columns
 - Standardizing Country names in all 4 datasets to match
   
-"""Python
+```Python
 difference1 = set(world_countries_list) - set(gdp_countries_list)
 difference1
 difference2 = set(gdp_countries_list) - set(world_countries_list)
 difference2
-"""
+```
 
 
 
