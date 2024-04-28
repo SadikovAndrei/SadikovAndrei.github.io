@@ -1,44 +1,32 @@
-### Creating a [dashboard](https://github.com/SadikovAndrei/Dark-Mode-Power-BI-dashboard/blob/a160b022fc75d42ac139d49f7c1c7f5837d8d033/BI/Store%20sales%20Dashboard.pbix) with light/dark mode toggle
-<img src="images/store_dash.gif?raw=true"/>
+### Creating a [countries dashboard](https://github.com/SadikovAndrei/Countries-Dash.git) with KPIs and advanced graphs
+<img src="images/countries_gif.gif?raw=true" style="clip-path: inset(0px 50px 0px 50px);"/>
 
-### 1. The Retail Store Sales dataset was taken from from [kaggle](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)
-### 2. The Power BI dashboard was created
-<img src="images/light_store_dash.png?raw=true"/>
-<img src="images/dark_store_dash.png?raw=true"/>
-### 3. To create dark mode option:
-- I've created an additional table
-<br><br>
-<img src="images/mode_table.png?raw=true"/>
+### 1. Preprocessing
+The idea is to create a dashboard showing a population growth, GDP, other data and flags.
+So here are sorce links:
 
-- Added slicer
-<br><br>
-<img src="images/mode_slicer.png?raw=true"/>
-
-- Added measures with if function oriented on the slicer
-```DAX
-Background Vis = IF(
-    SELECTEDVALUE(
-        'Mode Selection'[Mode]) = "Light",
-        "#ffffff",
-        "#303036"
-)
-```
-- Adjusted visualization formats to change automatically according to the measure
-At this stage the switch is already working, all that's teft is to add a toggle button which is not that straight-forward.
-### 4. Toggle button creating
-- Create a bookmarks in this manner (The groupped one should be the switch itself)
-<br><br>
-<img src="images/bookmarks.png?raw=true"/>
-- Pass the following settings
-<br><br>
-<img src="images/deselection.png?raw=true"/>
-- Set the needed parameters in the Style section for defualt, selected, etc. states of the toggle.
-<br><br>
-<img src="images/toggle_style.png?raw=true"/>
-- The last step is to switch the mode slicer and update the bookmarks in the bookmars menu
--Your toggle is ready 🥳🎉🎊
-<br><br>
-<img src="images/toggle.png?raw=true"/>
+[GDPs](https://www.kaggle.com/datasets/joebeachcapital/gdp-in-usd-by-country-and-year-1960-2022)
+[Flags](https://www.kaggle.com/datasets/andreshg/countries-iso-codes-continent-flags-url)
+[Population growth](https://www.kaggle.com/datasets/deeplyft/world-population-growth-annual)
+[Additional data](https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023/data)
+"""Python
+df_gdp = pd.read_csv('/content/Historical GDP in USD by Country and Year.csv')
+df_flags = pd.read_csv('/content/countries_continents_codes_flags_url.csv')
+df = pd.read_csv("/content/The_World_Bank_Population_growth_(annual_).csv")
+df_world_data = pd.read_csv('/content/world-data-2023.csv')
+"""
+The data was pulled from 4 Kaggle datasets, so much standartizing work was required:
+- Removing duplicates
+- Setting datatypes in order
+- Dropping excess columns
+- Standardizing Country names in all 4 datasets to match
+  
+"""Python
+difference1 = set(world_countries_list) - set(gdp_countries_list)
+difference1
+difference2 = set(gdp_countries_list) - set(world_countries_list)
+difference2
+"""
 
 
 
