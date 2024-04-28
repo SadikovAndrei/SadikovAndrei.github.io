@@ -36,7 +36,7 @@ difference2
 -Creating a pivot tables from growth and GDP datasets for the sake of usability
 -Setting relationships
 -The ERD we got:
-<img src="images/countries_gif.gif?raw=true"/>
+<img src="images/countries_ERD.png?raw=true"/>
 -changing datatypes of columns if needed (for example: image url for flag image url)
 -After formatting, designing addind supporting tables for KPIs, filling missing or outdates flag urls:
 <img src="images/countries_dash.png?raw=true"/>
