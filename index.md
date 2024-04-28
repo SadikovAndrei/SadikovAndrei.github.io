@@ -12,7 +12,7 @@
 [Creating a Power BI dashboard with dark mode](/store_dash)
 <img src="images/store_dash.gif?raw=true"/>
 [Creating a Countries Power BI dashboard](/countries_dash)
-<img src="images/countries_gif.gif?raw=true" style="margin-left: -250px; margin-right: -250px;"/>
+<img src="images/countries_gif.gif?raw=true" style="margin-left: -400px; margin-right: -400px;"/>
 [Dashboard building using IBM Cognos Analytics](/pdf/presentation.pdf)
 <img src="images/cognos_thumbnail.png?raw=true"/>
 
