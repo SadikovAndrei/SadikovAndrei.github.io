@@ -37,7 +37,8 @@ difference2
 -Setting relationships
 -The ERD we got:
 <img src="images/countries_ERD.png?raw=true"/>
--changing datatypes of columns if needed (for example: image url for flag image url)
+-Changing datatypes of columns if needed (for example: image url for flag image url)
+-Adding trendline, median line for illustative purposes
 -After formatting, designing addind supporting tables for KPIs, filling missing or outdates flag urls:
 <img src="images/countries_dash.png?raw=true"/>
 
